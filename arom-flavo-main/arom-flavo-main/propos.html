@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos de Nous - Aroma & Flavors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 40px;
+            background: linear-gradient(to bottom, #fff, #f8f8f8);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+        .propos {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .propos h1 {
+            color: #d2691e;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .propos p {
+            color: #666;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        section h2 {
+            color: #d2691e;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        .highlight {
+            color: #d2691e;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .highlight:hover {
+            color: #ff8c42;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 15px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        ul li:before {
+            content: "•";
+            color: #d2691e;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        p {
+            line-height: 1.8;
+            color: #555;
+        }
+        .testimonials {
+            background: linear-gradient(to right, #fff5e6, #fff9f0);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-size: 4em;
+            color: #d2691e;
+            opacity: 0.2;
+            position: absolute;
+            top: -10px;
+            left: 10px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        .customer-name {
+            color: #d2691e;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<header>
+    <div class="logo">
+        <img src="projet.png" alt="Logo du restaurant">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">À propos</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Réservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <div class="propos">
+            <h1>Bienvenue chez Aroma & Flavors</h1>
+            <p>Un voyage culinaire marocain authentique</p>
+        </div>
+        <section>
+            <h2>Notre Histoire</h2>
+            <p>
+                <span class="highlight">Aroma & Flavors</span> est né d’une passion commune pour la gastronomie marocaine 
+                et d’une volonté de partager les saveurs uniques de notre culture. Créé par trois étudiantes en génie informatique, 
+                <span class="highlight">Aicha Essougrati</span> ,<span class="highlight">  Fatima Ezzahra El Mouden</span> et <span class="highlight"> Chaimae ELbydary</span> ,
+                ce projet est un mélange d’innovation et de tradition.
+            </p>
+            <p>
+                Étudiantes à la <span class="highlight">Faculté Polydisciplinaire de Taroudant</span>, nous avons décidé de fusionner 
+                notre expertise en informatique avec notre amour pour la cuisine marocaine afin de proposer une expérience unique. 
+                Notre objectif est de faire découvrir aux clients la richesse de notre patrimoine culinaire dans un cadre chaleureux.
+            </p>
+        </section>
+        <section>
+            <h2>Notre Vision</h2>
+            <p>
+                Chez <span class="highlight">Aroma & Flavors</span>, nous croyons que chaque plat raconte une histoire. 
+                Nous nous efforçons de préserver les recettes traditionnelles marocaines tout en ajoutant une touche moderne. 
+                Nous voulons devenir un lieu incontournable pour ceux qui cherchent une expérience culinaire marocaine authentique.
+            </p>
+        </section>
+        <section>
+            <h2>Pourquoi Nous Choisir ?</h2>
+            <ul>
+                <li>Des ingrédients frais et locaux pour des plats de qualité.</li>
+                <li>Un cadre accueillant qui reflète l’hospitalité marocaine.</li>
+                <li>Une équipe passionnée par la gastronomie et le service client.</li>
+            </ul>
+        </section>
+
+        <section class="testimonials">
+            <h2>Ce que disent nos clients</h2>
+            <div class="testimonial-card">
+                <p class="testimonial-text">La meilleure expérience culinaire marocaine ! Les saveurs sont authentiques et le service est impeccable.</p>
+                <p class="customer-name">- Aicha E.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Le couscous était divin et l'ambiance chaleureuse. On se croirait vraiment au Maroc !</p>
+                <p class="customer-name">- Chaimae E.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Un véritable voyage gustatif ! Les pâtisseries sont extraordinaires et le thé à la menthe parfait.</p>
+                <p class="customer-name">- Fatima Ezzahra E.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="projet.png" alt="Aroma & Flavors Logo">
+            </div>
+            <div class="social-media">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter">
+                <h3>Inscrivez-vous à notre newsletter</h3>
+                <form action="#" method="POST">
+                    <input type="email" name="email" placeholder="Votre email" required>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+
+            <div class="legal">
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Aroma & Flavors. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
